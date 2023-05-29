@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "NotoSans Arabic";
+  src: url(../fonts/NotoSansArabic_Condensed-Bold.ttf);
+}
+
+.about-box h2 {
+  font-size: 30px;
+  font-family: "NotoSans Arabic";
+  font-weight: 800;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-top: 70px;
+}
+.about-box p {
+  width: 1254px;
+  height: 306px;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: "Arabic";
+  color: rgba(0, 0, 0, 1);
+  line-height: 50.69px;
+}
