@@ -2,7 +2,7 @@ import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Statistic from "./images/pexels-pixabay-265087 1.png";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -33,21 +33,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </>
-  );
-}
-function Home() {
-  return (
-    <>
-      <div className="landing-box">
-        <h1>How To Start Your Own Bussiness ! Will You Ready ?</h1>
-        <p>
-          WE help individuals or Organizations to start their business or
-          start-up by giving them indepth theory and practical sessions.
-        </p>
-        <button>Join Now</button>
-        <img src={Statistic} />
-      </div>
     </>
   );
 }
